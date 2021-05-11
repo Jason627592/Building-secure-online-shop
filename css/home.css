@@ -1,0 +1,14 @@
+#promotion_banner{
+    margin-left: 50px;
+    width: 70%;
+}
+
+#promotion_banner img{
+    width: 80%;
+    max-height: 550px;
+}
+
+.welcome-message{
+    display:flex;
+    width: 100%;
+}

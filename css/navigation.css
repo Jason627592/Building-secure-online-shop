@@ -1,0 +1,25 @@
+#home-navigation{
+    width: 30%;
+    padding: 0;
+}
+
+#home-navigation li{
+    list-style: none;
+    text-align: center;
+    background-color: #424242;
+    width: 100%;
+    min-width: 200px;
+    line-height: 60px;
+}
+
+#home-navigation li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+
+#home-navigation li a:hover{
+    text-decoration: none;
+    color: #424242;
+    background-color: #b3b3b3;
+}

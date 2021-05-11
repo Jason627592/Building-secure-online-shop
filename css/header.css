@@ -1,0 +1,123 @@
+.header-content{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    display: block;
+}
+
+.header-content{
+    height: 100%;
+}
+
+.header-content li{
+    padding: 0 20px;
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+    float: left;
+}
+
+.footer-content .left{
+    width: 40%;
+}
+
+
+.footer-content .right{
+    width: 60%;
+}
+
+.footer-content .left li,
+.footer-content .right li{
+    float: none;
+}
+
+.header-content .logo,
+.header-content #welcome_message,
+.header-content #shopping-cart,
+.header-content #logout{
+    display: flex;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.header-content .logo{
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.header-content .logo img{
+    width: 100%;
+}
+
+.header-content #welcome_message{
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.header-content #shopping-cart{
+    width: 30%;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.header-content #logout{
+    width: 20%;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+#dropdown-shopping-cart{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 30px;
+    z-index: 10;
+}
+
+#shopping-cart:hover #dropdown-shopping-cart{
+    display: inline-block;
+    text-align: center;
+}
+
+#dropdown-shopping-cart .product-name,
+#dropdown-shopping-cart .price,
+#dropdown-shopping-cart .subtotal{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+}
+
+#dropdown-shopping-cart .input-quantity{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+
+#cart_item .product-name{
+    text-align: left;
+}
+
+#cart_item .price,
+#cart_item .subtotal{
+    text-align: center;
+}
+
+#shopping-cart .checkOutButton,
+#clearCart{
+    width:100%;
+}
+
+#product_quantity{
+    text-align: center;
+}
+
+#dropdown-shopping-cart .header{
+    font-weight: bold;
+}
